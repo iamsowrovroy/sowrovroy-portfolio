@@ -1,0 +1,43 @@
+
+.research {
+  padding: 100px 8%;
+  background: var(--bg-secondary);
+}
+
+.research h2 {
+  font-size: 42px;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+.research-description {
+  max-width: 750px;
+  color: var(--text-secondary);
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+
+@media (max-width: 768px) {
+  .research {
+    padding: 80px 6%;
+  }
+
+  .research h2 {
+    font-size: 34px;
+  }
+
+  .research-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .research {
+    padding: 65px 5%;
+  }
+
+  .research h2 {
+    font-size: 30px;
+  }
+}

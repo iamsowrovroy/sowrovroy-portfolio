@@ -1,0 +1,10 @@
+
+# Allow ChatGPT Search
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+Sitemap: https://sowrovroy.com/sitemap.xml
